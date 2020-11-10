@@ -12,10 +12,10 @@
 <body>
 <div style="display: flex; justify-content: center;">
     <form method="post" action="/form" class="survey-container">
-        <h3>👩‍💻¿Como fue su experiencia en este barcamp?👩‍💻</h3>
+        <h3>‍¿Califica tu experiencia en el Barcamp</h3>
         <br/>
         <div>
-            <h5>¿Las charlas donde usted participó cumplieron con sus expectativas?</h5>
+            <h5>¿Las charlas cumplieron con sus expectativas?</h5>
             <div class="form-check form-check-inline">
                 <input class="form-check-input" type="radio" name="question-1" id="question-1-option-1" value="1">
                 <label class="form-check-label" for="question-1-option-1">1</label>
@@ -39,7 +39,7 @@
         </div>
         <br/>
         <div>
-            <h5>¿Los expositores mostraron tener dominio del tema?</h5>
+            <h5>¿Los temas expuestos eran de su interes?</h5>
             <div class="form-check form-check-inline">
                 <input class="form-check-input" type="radio" name="question-2" id="question-2-option-1" value="1">
                 <label class="form-check-label" for="question-2-option-1">1</label>
@@ -63,7 +63,7 @@
         </div>
         <br/>
         <div>
-            <h5>¿Las instalaciones del evento fueron confortables para usted?.</h5>
+            <h5>¿Las instalaciones estaban en optimas condiciones?</h5>
             <div class="form-check form-check-inline">
                 <input class="form-check-input" type="radio" name="question-3" id="question-3-option-1" value="1">
                 <label class="form-check-label" for="question-3-option-1">1</label>
@@ -87,7 +87,7 @@
         </div>
         <br/>
         <div>
-            <h5>¿Tiene algún comentario para los organizadores?</h5>
+            <h5>Deje un comentario</h5>
             <div class="form-group">
                 <textarea class="form-control" name="comment" id="exampleFormControlTextarea1" rows="3"></textarea>
             </div>
